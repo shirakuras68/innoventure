@@ -1,7 +1,7 @@
 require_relative 'layout'
 
 class ReservationForm < Layout
-  set_url '/reserveApp_Renewal/index.html'
+  set_url '/戦績データ/index.html'
 
   section :reserve_form, '#reserve_info' do
     element :reserve_date, '#datePick'

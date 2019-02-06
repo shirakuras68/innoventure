@@ -1,7 +1,7 @@
 require_relative 'layout'
 
 class ReservationConfirm < Layout
-  set_url '/reserveApp_Renewal/check_info.html{?query*}'
+  set_url '/戦績データ/check_info.html{?query*}'
 
   element :back_button, '#returnto_index'
   section :billing, '#billing' do
@@ -28,7 +28,7 @@ class ReservationConfirm < Layout
   element :commit_button, '#commit'
 
   class ReservationError < self
-    set_url '/reserveApp_Renewal/check_info.html{?query*}'
+    set_url '/戦績データ/check_info.html{?query*}'
 
     element :error_message, '#errorcheck_result'
   end
