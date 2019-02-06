@@ -20,7 +20,7 @@ Capybara.register_driver :selenium do |app|
 end
 
 Capybara.configure do |capybara|
-  capybara.app_host = 'https://inoventure-e-spo.jimdofree.com'
+  capybara.app_host = 'http://inoventure-e-spo.jimdofree.com'
   capybara.default_driver = :selenium
   capybara.ignore_hidden_elements = false
 end
